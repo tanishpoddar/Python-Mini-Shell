@@ -81,16 +81,7 @@ A small Unix-like shell implemented in Python. Supports built-in commands, pipel
 
     $ exit
     ```
-
-## File Structure
-
-app.py # Python shell source code
-README.md # Project documentation
-LICENSE # License (MIT recommended)
-requirements.txt# Python dependencies (if any)
-.gitignore # (Optional) Git ignore file
-
-
+    
 ## How It Works
 
 - Input is parsed with support for quotes, escapes, and pipelines.
