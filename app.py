@@ -2,7 +2,14 @@
 import sys
 import os
 import subprocess
-import readline
+try:
+    from pyreadline3 import Readline
+    readline = Readline()
+except ImportError:
+    try:
+        import pyreadline as readline
+    except ImportError:
+        import readline
 import time
 from typing import List
 
